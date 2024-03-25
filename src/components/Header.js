@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <div className="header-container">
+    <header className="header-container">
       <div className="header-top">
         <div className="nav-container">
           <img className="logo" src={logo} alt="logo-pic" />
@@ -21,11 +21,13 @@ function Header() {
           <p className="header-paragraph">
             We put your money in high quality assets that help you build wealth
             and achieve your financial goals.{" "}
+            <div className="download-image">
             <img
-              className="download-image"
+      
               src={downloadImage}
               alt="download-pic"
             />
+            </div>
           </p>
         </div>
         <div className="header-bottom">
@@ -35,7 +37,7 @@ function Header() {
       <div className="sponsor">
         <img src={sponsors} alt="sponsors-pic" />
       </div>
-    </div>
+    </header>
   );
 }
 
