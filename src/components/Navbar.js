@@ -8,8 +8,6 @@ function Navbar() {
     event.preventDefault(); // Prevent default anchor behavior
   };
 
-
-  
   return (
     <div className="navigator">
       <nav className="navbar links" id={showLinks ? "hidden" : ""}>
@@ -29,7 +27,7 @@ function Navbar() {
           About Us
         </a>
         <a href="/#" onClick={handleClick}>
-         FAQs
+          FAQs
         </a>
       </nav>
       <button onClick={() => setShowLinks(!showLinks)} className="nav-btn">

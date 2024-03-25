@@ -34,42 +34,42 @@ function Section() {
           </div>
         </div>
 
-      <div>
-        <div className="asset-item2">
-          <div className="asset-wrap">
-            <img src={realEstate} alt="realEstate-icon" />
+        <div>
+          <div className="asset-item2">
+            <div className="asset-wrap">
+              <img src={realEstate} alt="realEstate-icon" />
+            </div>
+          </div>
+
+          <div className="asset-border">
+            <Asset
+              title="Real Estate"
+              description="Our Real Estate plan is the sweet middle. Best for those who want a balance of good returns and medium risk. This plan invests in rented buildings in the US."
+              returns="Historical returns :"
+              returnAns=" 14% per annum"
+              risk="Risk Level :"
+              riskAns="Medium"
+            />
           </div>
         </div>
 
-        <div className="asset-border">
-          <Asset
-            title="Real Estate"
-            description="Our Real Estate plan is the sweet middle. Best for those who want a balance of good returns and medium risk. This plan invests in rented buildings in the US."
-            returns="Historical returns :"
-            returnAns=" 14% per annum"
-            risk="Risk Level :"
-            riskAns="Medium"
-          />
-        </div>
-      </div> 
-
-      <div>
-        <div className="asset-item3">
-          <div className="asset-wrap">
-            <img src={incomeIcon} alt="incomeIcon-icon" />
+        <div>
+          <div className="asset-item3">
+            <div className="asset-wrap">
+              <img src={incomeIcon} alt="incomeIcon-icon" />
+            </div>
           </div>
-        </div>
 
-        <div className="asset-border">
-          <Asset
-            title="Fixed Income"
-            description="A low-risk asset perfect for anyone who wants to protect their money in a secure, For people who want money from inflation while earning steady returns."
-            returns="Historical returns :"
-            returnAns=" 14% per annum"
-            risk="Risk Level :"
-            riskAns="Medium"
-          />
-        </div>
+          <div className="asset-border">
+            <Asset
+              title="Fixed Income"
+              description="A low-risk asset perfect for anyone who wants to protect their money in a secure, For people who want money from inflation while earning steady returns."
+              returns="Historical returns :"
+              returnAns=" 14% per annum"
+              risk="Risk Level :"
+              riskAns="Medium"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -450,6 +450,7 @@ margin-left: -2em;
 
   .stamp{
     text-align: center;
+    margin-top: 2em;
   }
 }
 
@@ -659,7 +660,7 @@ margin-left: -2em;
   .footer-top,
   .footer-bottom {
     display: flex;
-    gap: 6em;
+    gap: 4em;
   }
   .regulation-content {
     margin-top: -18em;

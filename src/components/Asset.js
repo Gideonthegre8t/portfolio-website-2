@@ -3,7 +3,7 @@ import rightArrow from "../assets/image/right-arrow.png";
 
 function Asset(props) {
   return (
-    <div className="asset-container" >
+    <div className="asset-container">
       <h3>{props.title}</h3>
       <p>{props.description}</p>
 
