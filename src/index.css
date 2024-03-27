@@ -700,19 +700,19 @@ body {
 
 @media (width < 400px) {
   .header-container {
-    width: 130%;
+    width: 129%;
   }
 
   .article-container {
-    width: 132%;
+    width: 131%;
   }
 
   .section-container {
-    width: 132%;
+    width: 131%;
   }
 
   .save-container {
-    width: 135%;
+    width: 132%;
   }
 
   .reviews-container {
@@ -754,7 +754,7 @@ body {
   }
 
   .regulation-container {
-    width: 134%;
+    width: 132%;
   }
 
   .footer-container {
