@@ -728,7 +728,8 @@ body {
   }
 
   .join-container {
-    width: 124%;
+    width: 100%;
+    margin-left: 14%;
   }
 
   .header {
@@ -765,7 +766,8 @@ body {
   }
 
   .regulation-container {
-    width: 132%;
+    width: 100%;
+    margin-left: 15%;
   }
 
   .footer-container {
