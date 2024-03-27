@@ -748,7 +748,8 @@ body {
     gap: 4em;
   }
   .regulation-content {
-    margin-top: -18em;
+    margin-top: -20em;
+    font-size: 100%;
   }
 
   .regulation-container {
