@@ -700,7 +700,7 @@ body {
 
 @media (width < 400px) {
   .header-container {
-    width: 132%;
+    width: 130%;
   }
 
   .article-container {
@@ -708,7 +708,7 @@ body {
   }
 
   .section-container {
-    width: 134%;
+    width: 132%;
   }
 
   .save-container {
@@ -724,7 +724,7 @@ body {
   }
 
   .join-container {
-    width: 128%;
+    width: 126%;
   }
 
   .header-text {
@@ -733,7 +733,7 @@ body {
   }
 
   .nav-btn {
-    left: 30rem;
+    left: 27em;
   }
 
   .footer-container {
