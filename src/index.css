@@ -12,6 +12,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
+  padding: 0;
 }
 
 @media (width < 3000px) {
@@ -78,12 +79,7 @@ body {
     max-width: 100%;
   }
 
-  .header-text {
-    max-width: 45%;
-    margin-left: -3em;
-    margin-top: 2em;
-  }
-
+  
   .download-image {
     text-align: center;
   }
@@ -109,6 +105,7 @@ body {
   }
 
   .sponsor {
+    justify-content: center;
     text-align: center;
     margin-top: 4em;
   }
@@ -555,6 +552,11 @@ body {
     display: block;
   }
 
+  .header{
+    width: 100%;
+  
+  }
+
   .header-text {
     max-width: 100%;
     margin-left: 1.5em;
@@ -562,6 +564,8 @@ body {
   }
 
   .sponsor {
+    justify-content: center;
+    text-align: center;
     margin-top: 2em;
   }
 
@@ -700,7 +704,9 @@ body {
 
 @media (width < 400px) {
   .header-container {
-    width: 129%;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
   }
 
   .article-container {
@@ -708,7 +714,7 @@ body {
   }
 
   .section-container {
-    width: 131%;
+    width: 134%;
   }
 
   .save-container {
@@ -724,12 +730,20 @@ body {
   }
 
   .join-container {
-    width: 126%;
+    width: 130%;
+  }
+  
+  
+  .header{
+    width: 132%;
   }
 
   .header-text {
     margin: 0 auto;
-    width: 150%;
+  }
+
+  .sponsor {
+    margin-left: 20%;
   }
 
   .nav-btn {
@@ -754,7 +768,7 @@ body {
   }
 
   .regulation-container {
-    width: 132%;
+    width: 136%;
   }
 
   .footer-container {
@@ -771,6 +785,8 @@ body {
     display: flex;
     gap: 2.5em;
   }
+
+  
 
   .regulation-container {
     width: 100%;

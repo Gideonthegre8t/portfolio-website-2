@@ -17,7 +17,7 @@ function Header() {
       <div className="header-content wrapper header ">
         <div className="header-text">
           {" "}
-          <h1>Dollar Investments That Help You Grow</h1>
+          <h1 className="header-text">Dollar Investments That Help You Grow</h1>
           <p className="header-paragraph">
             We put your money in high quality assets that help you build wealth
             and achieve your financial goals.{" "}
@@ -34,7 +34,7 @@ function Header() {
           <img className="balance-pic" src={totalBalance} alt="balance-pic" />
         </div>
       </div>
-      <div className="sponsor">
+      <div className="sponsor wrapper">
         <img src={sponsors} alt="sponsors-pic" />
       </div>
     </header>
