@@ -6,7 +6,6 @@
 body {
   max-width: 1152px;
   margin: 0 auto;
-  padding: 20px;
   font-family: "DMSans";
   color: rgb(74, 80, 80);
   font-weight: 400;
@@ -449,21 +448,53 @@ body {
   }
 
   .stamp {
+    justify-content: center;
     text-align: center;
     margin-top: 2em;
   }
 }
 
-@media (width < 671px) {
+@media (width < 672px) {
   body {
-    margin: 0 auto;
     width: 120%;
+  }
+
+  .header-container {
+    width: 126%;
+  }
+
+  .article-container {
+    width: 134%;
+  }
+
+  .section-container {
+    width: 134%;
+  }
+
+  .save-container {
+    width: 136%;
+  }
+
+  .regulation-container {
+    width: 128%;
+  }
+
+  .reviews-container {
+    width: 132%;
+  }
+
+  .community-container {
+    width: 135%;
+  }
+
+  .join-container {
+    width: 132%;
   }
 
   .nav-btn {
     display: flex;
     position: absolute;
-    right: -4rem;
+    right: -13rem;
     background: transparent;
     padding: 1px;
     cursor: pointer;
@@ -486,7 +517,7 @@ body {
     left: 0px;
     top: 93px;
     height: 1782%;
-    width: 120%;
+    width: 150%;
     background-color: #fff;
     z-index: 100;
     display: flex;
@@ -512,7 +543,7 @@ body {
     margin-top: 0em;
   }
 
-  .header-text {
+  .header-content {
     width: 85%;
   }
 
@@ -541,6 +572,7 @@ body {
   .asset-header {
     display: block;
     margin: 0 auto;
+    align-content: center;
     justify-content: center;
     text-align: center;
   }
@@ -598,6 +630,15 @@ body {
     height: 100%;
   }
 
+  .regulation-content {
+    margin-top: -21em;
+    font-size: 130%;
+  }
+
+  .regulation-container {
+    width: 135%;
+  }
+
   .review-paragraph {
     width: 100%;
     margin-top: 0;
@@ -644,23 +685,55 @@ body {
     width: 100%;
     padding: 0;
     margin-top: 4em;
-    margin-left: 20%;
+    margin-left: 40%;
   }
 
   .footer-top,
   .footer-bottom {
     margin: 0;
   }
+
+  .stamp {
+    margin-left: 40%;
+  }
 }
 
 @media (width < 400px) {
-  .header-content {
-    margin: 0 auto;
-    width: 100%;
+  .header-container {
+    width: 132%;
   }
+
+  .article-container {
+    width: 132%;
+  }
+
+  .section-container {
+    width: 134%;
+  }
+
+  .save-container {
+    width: 135%;
+  }
+
+  .reviews-container {
+    width: 130%;
+  }
+
+  .community-container {
+    width: 135%;
+  }
+
+  .join-container {
+    width: 128%;
+  }
+
   .header-text {
     margin: 0 auto;
-    width: 100%;
+    width: 150%;
+  }
+
+  .nav-btn {
+    left: 30rem;
   }
 
   .footer-container {
@@ -674,14 +747,21 @@ body {
   .footer-top,
   .footer-bottom {
     display: flex;
-    gap: 7em;
+    gap: 4em;
   }
   .regulation-content {
     margin-top: -18em;
   }
-  .regulation-text {
-    margin: 0 auto;
-    width: 100%;
+
+  .regulation-container {
+    width: 134%;
+  }
+
+  .footer-container {
+    margin-left: 30%;
+  }
+  .stamp {
+    margin-left: 30%;
   }
 }
 
@@ -694,6 +774,10 @@ body {
 
   .regulation-container {
     width: 100%;
+  }
+
+  .nav-btn {
+    left: 22rem;
   }
 }
 

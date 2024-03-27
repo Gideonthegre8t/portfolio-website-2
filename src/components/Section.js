@@ -6,7 +6,7 @@ import incomeIcon from "../assets/image/income.png";
 
 function Section() {
   return (
-    <div className="section-container">
+    <section className="section-container">
       <div className="asset-header">
         <h2>Asset Classes</h2>
         <p className="asset-paragraph">
@@ -72,7 +72,7 @@ function Section() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

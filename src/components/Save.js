@@ -3,7 +3,7 @@ import goalImage from "../assets/image/goal.png";
 
 function Save() {
   return (
-    <div className="save-container wrapper">
+    <div className="save-container">
       <div className="goal-image">
         <img  src={goalImage} alt="goal-pic" />
       </div>

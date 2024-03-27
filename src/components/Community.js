@@ -3,7 +3,7 @@ import communityPhoto from "../assets/image/photo/community.png";
 
 function Community() {
   return (
-    <div className="community-container wrapper">
+    <div className="community-container ">
       <div className="community-photo">
         <img src={communityPhoto} alt="community-pic" />
       </div>
