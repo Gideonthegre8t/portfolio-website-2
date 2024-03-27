@@ -79,7 +79,6 @@ body {
     max-width: 100%;
   }
 
-  
   .download-image {
     text-align: center;
   }
@@ -552,9 +551,8 @@ body {
     display: block;
   }
 
-  .header{
+  .header {
     width: 100%;
-  
   }
 
   .header-text {
@@ -726,15 +724,14 @@ body {
   }
 
   .community-container {
-    width: 135%;
+    width: 132%;
   }
 
   .join-container {
     width: 130%;
   }
-  
-  
-  .header{
+
+  .header {
     width: 132%;
   }
 
@@ -785,8 +782,6 @@ body {
     display: flex;
     gap: 2.5em;
   }
-
-  
 
   .regulation-container {
     width: 100%;
