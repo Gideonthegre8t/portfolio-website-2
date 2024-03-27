@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-website-2/static/css/main.30be5a69.css",
+    "main.css": "/portfolio-website-2/static/css/main.86fcddb6.css",
     "main.js": "/portfolio-website-2/static/js/main.ba7a79ce.js",
     "static/js/453.a00f260f.chunk.js": "/portfolio-website-2/static/js/453.a00f260f.chunk.js",
     "static/media/DMSans-VariableFont_opsz,wght.ttf": "/portfolio-website-2/static/media/DMSans-VariableFont_opsz,wght.90130db6a4fc53f17a88.ttf",
@@ -18,12 +18,12 @@
     "static/media/invest-image4.png": "/portfolio-website-2/static/media/invest-image4.0d1d6cbd5ed06a436f51.png",
     "static/media/sponsors.png": "/portfolio-website-2/static/media/sponsors.2012e8f9bd5602d9b8b5.png",
     "index.html": "/portfolio-website-2/index.html",
-    "main.30be5a69.css.map": "/portfolio-website-2/static/css/main.30be5a69.css.map",
+    "main.86fcddb6.css.map": "/portfolio-website-2/static/css/main.86fcddb6.css.map",
     "main.ba7a79ce.js.map": "/portfolio-website-2/static/js/main.ba7a79ce.js.map",
     "453.a00f260f.chunk.js.map": "/portfolio-website-2/static/js/453.a00f260f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30be5a69.css",
+    "static/css/main.86fcddb6.css",
     "static/js/main.ba7a79ce.js"
   ]
 }
