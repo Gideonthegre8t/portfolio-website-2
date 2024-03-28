@@ -493,6 +493,12 @@ body {
     font-size: 1.2rem;
   }
 
+  .links{
+    display: none;
+  }
+
+ 
+
   .navigator > #hidden {
     display: flex;
   }
@@ -504,7 +510,7 @@ body {
   #hidden {
     position: absolute;
     left: 0px;
-    top: 93px;
+    top: 60px;
     height: 1782%;
     width: 150%;
     background-color: #fff;
@@ -513,7 +519,7 @@ body {
     flex-direction: column;
     align-items: left;
     margin: 20px;
-    transition: top 3s ease-in;
+    transition: top 1s ease-in;
   }
 
   .navbar a::before {

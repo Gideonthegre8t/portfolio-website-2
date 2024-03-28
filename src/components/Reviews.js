@@ -3,7 +3,7 @@ import Scroll from "./ScrollReview";
 
 function Reviews() {
   return (
-    <div className="reviews-container">
+    <div id="testimonial" className="reviews-container">
       <div>
         <div className="wrapper">
           <h2 className="reviews-header">From The People Who Use Rise</h2>

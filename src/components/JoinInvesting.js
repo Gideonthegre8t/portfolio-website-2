@@ -4,7 +4,7 @@ import balance from "../assets/image/balance.png";
 
 function Join() {
   return (
-    <div className="join-container wrapper">
+    <div id="products" className="join-container wrapper">
       <div className="join-left">
         <p className="join-first-text"> Download The Rise App</p>
         <h3>Join our 100,000 users investing and setting long term goals!</h3>

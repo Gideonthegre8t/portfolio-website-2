@@ -21,7 +21,7 @@ function createCard(content) {
 
 function Article() {
   return (
-    <div>
+    <div id="invest">
       <div className="article-container">{content.map(createCard)}</div>
       <div className="article-container-desktop">
         <div className="invest-card wrapper  reverse ">

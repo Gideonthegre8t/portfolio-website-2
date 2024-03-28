@@ -6,7 +6,7 @@ import Copyright from "./Copyright";
 function Footer() {
   return (
     <footer>
-      <div className="footer-container wrapper">
+      <div id="contact" className="footer-container wrapper">
         <div className="footer-top wrapper">
           <div className="footer-top-left">
             <img src={logo} alt="logo" />

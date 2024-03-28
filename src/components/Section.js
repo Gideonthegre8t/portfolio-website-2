@@ -6,7 +6,7 @@ import incomeIcon from "../assets/image/income.png";
 
 function Section() {
   return (
-    <section className="section-container">
+    <section id="assets" className="section-container">
       <div className="asset-header">
         <h2>Asset Classes</h2>
         <p className="asset-paragraph">

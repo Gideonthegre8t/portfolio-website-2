@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <header className="header-container wrapper">
+    <header id="home" className="header-container wrapper">
       <div className="header-top">
         <div className="nav-container">
           <img className="logo" src={logo} alt="logo-pic" />
