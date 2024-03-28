@@ -22,10 +22,14 @@ body {
 
   .nav-container {
     display: flex;
+    gap: 4em;
   }
 
   .logo {
     margin-left: -2em;
+    width:9%;
+    height: 9%;
+
   }
 
   nav a {
@@ -791,6 +795,11 @@ body {
   body {
     width: 125%;
   }
+
+  /* .logo{
+    width: 5%;
+    height: 5%;
+  } */
 
   .regulation-container {
     margin: 0 auto;
