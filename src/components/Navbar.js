@@ -26,11 +26,11 @@ function Navbar() {
         <a href="/#" onClick={(e) => handleClick(e, "save")}>
           Start Saving
         </a>
-        <a href="/#" onClick={(e) => handleClick(e, "community")}>
-          Community
-        </a>
         <a href="/#" onClick={(e) => handleClick(e, "testimonial")}>
           Testimonials
+        </a>
+        <a href="/#" onClick={(e) => handleClick(e, "community")}>
+          Community
         </a>
       </nav>
       <button onClick={() => setShowLinks(!showLinks)} className="nav-btn">
