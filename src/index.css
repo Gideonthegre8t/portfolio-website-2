@@ -27,8 +27,8 @@ body {
 
   .logo {
     margin-left: -2em;
-    width:9%;
-    height: 9%;
+    width:5%;
+    height: 5%;
 
   }
 
@@ -62,7 +62,8 @@ body {
     color: black;
   }
 
-  .nav-btn {
+
+  .nav-btn{
     display: none;
   }
 
@@ -484,10 +485,14 @@ body {
     width: 134%;
   }
 
-  .nav-btn {
+  .logo{
+    width: 8%;
+  }
+
+  .nav-btn{
     display: flex;
-    position: absolute;
-    right: -13rem;
+    position: fixed;
+    right: 4rem;
     background: transparent;
     padding: 1px;
     cursor: pointer;
@@ -497,6 +502,7 @@ body {
     font-size: 1.2rem;
   }
 
+
   .links{
     display: none;
   }
@@ -505,6 +511,7 @@ body {
 
   .navigator > #hidden {
     display: flex;
+    position: fixed;
   }
 
   .links {
@@ -514,7 +521,7 @@ body {
   #hidden {
     position: absolute;
     left: 0px;
-    top: 60px;
+    top: 40px;
     height: 1782%;
     width: 150%;
     background-color: #fff;
@@ -740,8 +747,12 @@ body {
     margin-left: 20%;
   }
 
+  .logo{
+    width: 13%;
+  }
+
   .nav-btn {
-    left: 27em;
+    right: 1em;
   }
 
   .footer-container {
@@ -780,6 +791,11 @@ body {
   .footer-bottom {
     display: flex;
     gap: 2.5em;
+  }
+
+  .nav-btn{
+    display: block;
+    margin-left: -4em;
   }
 
   .regulation-container {
